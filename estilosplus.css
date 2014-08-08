@@ -77,6 +77,7 @@ header #logo img
 nav
 {
 	background: #80BCA3;
+	box-shadow: rgba(0,0,0,0.5) 0px 5px 10px;
 	padding: 0 0.5em;
 	position: relative;
 
@@ -114,6 +115,7 @@ nav ul li a
 	color: white;
 	display: block;
 	padding: 0.5em 0;
+	text-decoration: none;
 }
 #contenido
 {
@@ -138,9 +140,10 @@ nav ul li a
 	text-align: right;
 	margin: 1em 1em 0 0;
 }
-#contenido .item .datos_item .tag_item
+#contenido .item .datos_item .fecha_item
 {
 	color: #AAA;
+	float: right;
 }
 #contenido .item .datos_item .tag_item
 {
@@ -166,6 +169,7 @@ nav ul li a
 	font-size: 1.2em;
 	font-style: italic;
 	padding: 1em 1em 0 0;
+	margin-bottom: 0;
 }
 #contenido .item .titulo_item a
 {
@@ -175,26 +179,40 @@ nav ul li a
 #contenido .item .votacion
 {
 	position: absolute;
-	left: 10%;
+	left: 3%;
 	background: white;
 	border-radius: 0 0 0.5em 0.5em;
 	margin-top: 3px;
-	padding: 0.2em 0.5em;
+	padding: 0.5em 1em;
 	top: 100%;
 	width: 90%;
+	right: 3%;
 
 
 
 }
 #contenido .item .votacion a 
-{color: #AAA;
+{
+	text-decoration: none;
 }
 #contenido .item .votacion .comentarios_item
 {
 	right: 0;
+	float: right;
 }
-
-
+#contenido .item .votacion .guardar_item
+{
+	float: right;
+	color: #FFBE2C;
+}
+#contenido .item .votacion .down
+{
+color: #DD4F24
+}
+#contenido .item .votacion .up
+{
+color: #22BC68;
+}
 
 
 
